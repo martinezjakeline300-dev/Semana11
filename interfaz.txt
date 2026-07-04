@@ -1,0 +1,3 @@
+La interfaz será sencilla y fácil de usar para cualquier persona de la comunidad. Contará primero con un formulario claro para crear una nueva causa, donde se ingresa el título, la descripción del objetivo y la categoría.
+ 
+ También tendrá una vista principal con todas las causas disponibles, ordenadas por fecha o relevancia. Cada causa mostrará su información básica, un botón visible para dar apoyo y un contador que indica cuántas personas ya la respaldan. No mostrará datos privados de los usuarios, solo información pública de cada iniciativa.

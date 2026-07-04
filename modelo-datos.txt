@@ -1,0 +1,35 @@
+Entidad: Reporte
+ 
+ Campos principales:
+  
+  -  id : Identificador único del reporte
+
+  -  tipo_incidencia : Clasificación general (ej: servicios públicos, seguridad, obras)
+
+  -  descripcion : Detalle del problema o solicitud
+
+  -  fecha_registro : Fecha y hora en que se ingresó el reporte
+
+  -  estado : Etapa del trámite (recibido, en revisión, resuelto)
+   
+   Propósito:
+   Almacenar la información básica de las solicitudes y reportes que presentan los ciudadanos, para darles seguimiento y identificar las necesidades más frecuentes de la comunidad. No incluye datos sensibles de forma obligatoria.
+    
+     
+     
+     Entidad: Seguimiento
+      
+      Campos principales:
+       
+       -  id : Identificador único del registro de seguimiento
+
+       -  reporte_id : Relación con el reporte al que corresponde
+
+       -  comentario : Información sobre avances o cambios de estado
+
+       -  fecha_accion : Fecha en que se actualizó el reporte
+
+       -  responsable : Rol o área que realizó la actualización
+        
+        Propósito:
+        Llevar el historial de cambios y comentarios de cada reporte, garantizando transparencia y trazabilidad de todo el proceso hasta su cierre.
